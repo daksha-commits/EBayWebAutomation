@@ -1,0 +1,17 @@
+{
+  "name": "ebaywebautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --reporter mochawesome --require mochawesome/register --reporter-options reportDir=ebayreport,reportFilename=reportsummary"
+  },
+  "author": "Daksha",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.6.0"
+  }
+}
